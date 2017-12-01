@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.dell.weather.MainActivity"
+    >
+
+    <Button
+        android:id="@+id/redb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFF0000"
+        android:onClick="red"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+    <TextView
+        android:id="@+id/redimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFF0000"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/greenb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/redb"
+        android:layout_toRightOf="@+id/redb"
+        android:background="#00ff00"
+        android:onClick="green"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/greenimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ff00"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/blueb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/greenb"
+        android:layout_toRightOf="@+id/greenb"
+        android:background="#0000ff"
+        android:onClick="blue"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/blueimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0000ff"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/yellowb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/blueb"
+        android:layout_toRightOf="@+id/blueb"
+        android:background="#ffff00"
+        android:onClick="yellow"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/yellowimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffff00"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/cielb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/yellowb"
+        android:layout_toRightOf="@+id/yellowb"
+        android:background="#00ffff"
+        android:onClick="ciel"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/cielimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#00ffff"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/whiteb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/cielb"
+        android:layout_toRightOf="@+id/cielb"
+        android:background="#ffffff"
+        android:onClick="white"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/whiteimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:visibility="invisible"
+        />
+
+
+    <Button
+        android:id="@+id/vlevetb"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_toEndOf="@+id/whiteb"
+        android:layout_toRightOf="@+id/whiteb"
+        android:background="#ff00e6"
+        android:onClick="velvet"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/velvetimage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff00e6"
+        android:visibility="invisible"
+        />
+
+</RelativeLayout>
